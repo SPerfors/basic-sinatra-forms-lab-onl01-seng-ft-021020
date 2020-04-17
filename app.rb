@@ -13,7 +13,7 @@ class App < Sinatra::Base
     @shoot = params["shoot"]
     @small = params["small"]
     @power = params["power"]
-    @coach = params["coach"]
+    @center = params["center"]
     
     erb :team
   end
