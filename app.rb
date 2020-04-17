@@ -11,7 +11,7 @@ class App < Sinatra::Base
     @coach = params["coach"]
     @pg = params["pg"]
     @sg = params["sg"]
-    @small = params["small"]
+    @sf = params["sf"]
     @pf = params["pf"]
     @c = params["c"]
     
